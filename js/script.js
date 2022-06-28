@@ -1,0 +1,61 @@
+$('.a1').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1550,
+    autoplayHoverPause:true,
+    nav:true,
+    responsive:{
+        0:{
+            autoplay:false,
+            dots:false,
+            nav:false,
+            items:2
+        },
+        375:{
+            autoplay:true,
+            nav:false,
+            items:2
+        },
+        425:{
+            dots:false,
+            autoplay:false,
+            items:3
+        },
+        768:{
+            nav:false,
+            items:4
+        }
+    }
+})
+
+$('.a2').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2600,
+    autoplayHoverPause:true,
+    nav:true,
+    responsive:{
+        0:{
+            autoplay:true,
+            dots:false,
+            nav:false,
+            items:1
+        },
+        375:{
+            autoplay:false,
+            dots:false,
+            items:2
+        },
+        425:{
+            nav:false,
+            autoplay:true,
+            items:4
+        },
+        768:{
+            dots:false,
+            items:5
+        }
+    }
+})
